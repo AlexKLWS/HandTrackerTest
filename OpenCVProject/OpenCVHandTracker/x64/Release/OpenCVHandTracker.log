@@ -1,0 +1,30 @@
+﻿  handGesture.cpp
+e:\opencvhandtracker\handgesture.cpp(47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(48): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(82): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(125): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(173): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(180): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(199): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(208): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\opencvhandtracker\handgesture.cpp(207): warning C4101: 'avgY': unreferenced local variable
+e:\opencvhandtracker\handgesture.cpp(207): warning C4101: 'avgX': unreferenced local variable
+e:\opencvhandtracker\handgesture.cpp(209): warning C4101: 'faridx': unreferenced local variable
+  main.cpp
+e:\opencvhandtracker\main.cpp(201): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\opencvhandtracker\main.cpp(230): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\opencvhandtracker\main.cpp(317): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\main.cpp(318): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\main.cpp(331): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\main.cpp(333): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\main.cpp(334): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\opencvhandtracker\main.cpp(335): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  imageSource.cpp
+  roi.cpp
+     Creating library E:\OpenCVHandTracker\x64\Release\OpenCVHandTracker.lib and object E:\OpenCVHandTracker\x64\Release\OpenCVHandTracker.exp
+  Generating code
+  All 654 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  OpenCVHandTracker.vcxproj -> E:\OpenCVHandTracker\x64\Release\OpenCVHandTracker.dll
