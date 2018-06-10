@@ -19,7 +19,8 @@ namespace Scripts.Core.Services
             _controllers = new Dictionary<Type, ComponentLinkedController>
             {
                 {typeof(ButtonController), new ButtonController()},
-                {typeof(VideoFeedController), new VideoFeedController()}
+                {typeof(VideoFeedController), new VideoFeedController()},
+                {typeof(MovableObjectController), new MovableObjectController()}
             };
             GameController.OnQuit += Release;
         }
@@ -69,6 +70,8 @@ namespace Scripts.Core.Services
                 yield return null;
             }
             HandTrackerInterop.StartTracking();
+            MovableObjectController cubeController = _controllers[typeof(MovableObjectController)] as MovableObjectController;
+            cubeController.StartTracking();
         }
 
         private void Release()
