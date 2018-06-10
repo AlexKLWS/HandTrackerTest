@@ -22,5 +22,8 @@ namespace Scripts.Interop
 
         [DllImport("SimpleHandTracker")]
         internal unsafe static extern void GetFrame(PixelData* pixels);
+
+        [DllImport("SimpleHandTracker")]
+        internal static extern void GetHandCoordinates(ref float x, ref float y);
     }
 }
