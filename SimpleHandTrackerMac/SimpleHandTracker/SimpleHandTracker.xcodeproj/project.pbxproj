@@ -261,7 +261,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AE55N5W9E2;
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				INFOPLIST_FILE = SimpleHandTracker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleHandTrackerSource/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
@@ -297,7 +297,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AE55N5W9E2;
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				INFOPLIST_FILE = SimpleHandTracker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleHandTrackerSource/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
