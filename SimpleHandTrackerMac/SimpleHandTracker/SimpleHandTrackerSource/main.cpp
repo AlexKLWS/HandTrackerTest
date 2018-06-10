@@ -36,6 +36,7 @@ int _averageColors[NSAMPLES][3];
 int c_lower[NSAMPLES][3];
 int c_upper[NSAMPLES][3];
 vector <ColorSampleROI> _colorSampleRegions;
+Point2f _handCoordinates;
 
 ImageSource _imageSource(0);
 TrackerState _currentState;
@@ -176,6 +177,7 @@ void MakeContours(ImageSource *m, HandGesture* hg) {
 	hg->cIdx = FindBiggestContour(hg->contours);
 	if (hg->cIdx != -1) {
 		hg->bRect = boundingRect(Mat(hg->contours[hg->cIdx]));
+        _handCoordinates = (hg->bRect.br() + hg->bRect.tl())*0.5;
 		convexHull(Mat(hg->contours[hg->cIdx]), hg->hullPoint[hg->cIdx], false, true);
 		convexHull(Mat(hg->contours[hg->cIdx]), hg->hullIndex[hg->cIdx], false, false);
 		approxPolyDP(Mat(hg->hullPoint[hg->cIdx]), hg->hullPoint[hg->cIdx], 18, true);
@@ -314,6 +316,11 @@ extern "C" void  GetFrame(PixelData* pixels)
         *(pixels + counter) = PixelData ((*it)[2], (*it)[1], (*it)[0]);
         counter++;
     }
+}
+
+extern "C" void GetHandCoordinates(float& x, float& y) {
+    x = _handCoordinates.x;
+    y = _handCoordinates.y;
 }
 
 extern "C" void  Close()
