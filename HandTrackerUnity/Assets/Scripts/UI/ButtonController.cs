@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Scripts.Core;
+﻿using Scripts.Core;
 using Scripts.Core.Services;
 using Scripts.Core.Config;
-using UnityEngine;
 
 namespace Scripts.UI
 {

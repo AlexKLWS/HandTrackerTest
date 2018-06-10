@@ -28,6 +28,7 @@ namespace Scripts.UI
             //That's why the original image appears flipped. To compensate for this, I flip upside down
             //the quad on which the video is projected
             //Also make the scale to match the video feed aspect ratio
+            _componentHolder.VideoTransform.position = new Vector3(0f, 0f, GameConfig.CameraDistance);
             _componentHolder.VideoTransform.localScale = new Vector3((float)gameConfig.CameraWidth / 100f, -(float)gameConfig.CameraHeight / 100f, 1f);
             _componentHolder.VideoMaterial.mainTexture = _videoTexture;
             GameController.OnUpdate += Update;
