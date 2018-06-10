@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Scripts.UI;
 using Scripts.Interop;
 using Scripts.Core.Config;
+using Scripts.Objects;
 
 namespace Scripts.Core.Services
 {

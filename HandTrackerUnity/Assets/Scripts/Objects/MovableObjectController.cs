@@ -5,7 +5,7 @@ using Scripts.Core;
 using Scripts.Interop;
 using Scripts.Core.Config;
 
-namespace Scripts.UI
+namespace Scripts.Objects
 {
 
     public class MovableObjectController : ComponentLinkedController

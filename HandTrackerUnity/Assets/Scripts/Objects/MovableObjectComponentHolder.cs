@@ -2,7 +2,7 @@
 using Scripts.Core;
 using UnityEngine;
 
-namespace Scripts.UI
+namespace Scripts.Objects
 {
 
     public class MovableObjectComponentHolder : ComponentHolder
