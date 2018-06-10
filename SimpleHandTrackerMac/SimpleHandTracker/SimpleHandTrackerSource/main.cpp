@@ -161,7 +161,6 @@ void DrawHandContours(ImageSource *m, HandGesture *hg) {
         Point ptEnd(hg->contours[hg->cIdx][endidx]);
 		int faridx = v[2];
         Point ptFar(hg->contours[hg->cIdx][faridx]);
-//        float depth = v[3] / 256;
 		circle(result, ptFar, 9, Scalar(0, 205, 0), 5);
 
 		d++;

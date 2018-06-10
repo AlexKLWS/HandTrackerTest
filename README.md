@@ -11,5 +11,4 @@ I did some refactoring, but overall logic was left the same.
 - I wanted to test out the trick of passing an array of pixels by pointer,  from unmanaged code into managed space, without copying. I'm really glad I've had managed to make it work, although not perfectly.
 
 Known issues:
-- Unity editor keeps libraries in memory between play sessions, as it seems, and because of that, the actual hand detection won't work in playmode on the second time. After editor restart, everything works just fine. I'm still working on resolving this issue.
-- This project was developed on the mac and unfortunately won't work on any other platform as it is. I started developing the native plugin with VS in virtual box, but it was taking too long this way, so I've decided to stick with macOS bundle to save time
+- This project was developed on Mac and unfortunately won't work on any other platform as it is. I started developing the native plugin with VS in virtual box, but it was taking too long this way, so I've decided to stick with macOS bundle to save time
