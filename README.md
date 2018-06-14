@@ -10,5 +10,9 @@ The main goal of this project is to show some of my skills and capabilities. Cer
 I did some refactoring, and rewrote main script to make it work as a plugin, but overall logic was left the same.
 - I wanted to test out the trick of passing an array of pixels by pointer,  from unmanaged code into managed space, without copying. I'm really glad I've had managed to make it work, although not perfectly.
 
-Known issues:
+**Known issues:**
 - This project was developed on Mac and unfortunately won't work on any other platform as it is. I started developing the native plugin with VS in virtual box, but it was taking too long this way, so I've decided to stick with macOS bundle to save time
+
+**Little demo video:**
+
+[![DEMO](https://img.youtube.com/vi/jNVBCaRX38A/0.jpg)](https://youtu.be/jNVBCaRX38A "DEMO")
